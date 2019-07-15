@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [MobileTesting.com.AFAdvantage]">
+  <test name="TC010_Validate_3CU_UH_MarketingMaterialScreenAndEmailDocuments(failed)">
+    <classes>
+      <class name="MobileTesting.com.AFAdvantage.TC010_Validate_3CU_UH_MarketingMaterialScreenAndEmailDocuments">
+        <methods>
+          <include name="setUp"/>
+          <include name="validate3CUMarketingMeterialAndEmailAFSpecificInfo"/>
+          <include name="closeApp"/>
+          <include name="validateUHMarketingMeterialAndEmailAFSpecificInfo"/>
+          <include name="closeReporting"/>
+          <include name="beforeMethod"/>
+          <include name="afterTestMethod"/>
+          <include name="phoneAppSetUp"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC010_Validate_3CU_UH_MarketingMaterialScreenAndEmailDocuments -->
+    </classes>
+  </test> <!-- TC010_Validate_3CU_UH_MarketingMaterialScreenAndEmailDocuments(failed) -->
+</suite> <!-- Failed suite [MobileTesting.com.AFAdvantage] -->

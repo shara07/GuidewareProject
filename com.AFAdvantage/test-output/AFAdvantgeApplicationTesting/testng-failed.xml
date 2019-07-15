@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AFAdvantgeApplicationTesting]">
+  <test name="AFAdvantageRegressionTest(failed)">
+    <classes>
+      <class name="MobileTesting.com.AFAdvantage.TC006_Validate3CUWebsiteObjects">
+        <methods>
+          <include name="phoneAppSetUp"/>
+          <include name="validate3CUMobileWebsite"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC006_Validate3CUWebsiteObjects -->
+      <class name="MobileTesting.com.AFAdvantage.TC005_ValidateCompWestWebsiteObjects">
+        <methods>
+          <include name="phoneAppSetUp"/>
+          <include name="validateCWMobileWebpage"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC005_ValidateCompWestWebsiteObjects -->
+      <class name="MobileTesting.com.AFAdvantage.TC007_ValidateUHWebsiteObjects">
+        <methods>
+          <include name="validateUHMobileWebsite"/>
+          <include name="closeApp"/>
+          <include name="phoneAppSetUp"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC007_ValidateUHWebsiteObjects -->
+      <class name="MobileTesting.com.AFAdvantage.TC001_ValidateBrandSwapScreenAndHomepages">
+        <methods>
+          <include name="ValidateCWHomepage"/>
+          <include name="ValidateUHHomepage"/>
+          <include name="phoneAppSetUp"/>
+          <include name="closeApp"/>
+          <include name="ValidateAFHomepage"/>
+          <include name="ValidateThreeCUHomepage"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC001_ValidateBrandSwapScreenAndHomepages -->
+      <class name="MobileTesting.com.AFAdvantage.TC002_ValidateResourcesMenu">
+        <methods>
+          <include name="phoneAppSetUp"/>
+          <include name="closeApp"/>
+          <include name="Validate3CUResourcesPage"/>
+          <include name="ValidateCWResourcesPage"/>
+          <include name="ValidateUHResourcesPage"/>
+          <include name="ValidateAFResourcesPage"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC002_ValidateResourcesMenu -->
+      <class name="MobileTesting.com.AFAdvantage.TC003_ValidateUserMenu">
+        <methods>
+          <include name="phoneAppSetUp"/>
+          <include name="Validate3CUUserMenu"/>
+          <include name="ValidateCWUserMenu"/>
+          <include name="ValidateAFUserMenu"/>
+          <include name="ValidateUHUserMenu"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC003_ValidateUserMenu -->
+      <class name="MobileTesting.com.AFAdvantage.TC008_Validate_AF_CW_MarketingMeterialScreenAndEmailDocuments">
+        <methods>
+          <include name="validateCWMarketingMeterialAndEmailAFSpecificInfo"/>
+          <include name="validateAFMarketingMeterialAndEmailAFSpecificInfo"/>
+          <include name="phoneAppSetUp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC008_Validate_AF_CW_MarketingMeterialScreenAndEmailDocuments -->
+      <class name="MobileTesting.com.AFAdvantage.TC004_ValidateAccidentFundWebsiteHomepageObjects">
+        <methods>
+          <include name="validateAFMobileWebsiteObjects"/>
+          <include name="closeApp"/>
+          <include name="phoneAppSetUp"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC004_ValidateAccidentFundWebsiteHomepageObjects -->
+    </classes>
+  </test> <!-- AFAdvantageRegressionTest(failed) -->
+</suite> <!-- Failed suite [AFAdvantgeApplicationTesting] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [MobileTesting.com.AFAdvantage.AndroidDriverTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="MobileTesting.com.AFAdvantage.AndroidDriverTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="closeApplication"/>
+          <include name="openAFAdvantageApp"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.AndroidDriverTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [MobileTesting.com.AFAdvantage.AndroidDriverTest] -->

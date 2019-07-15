@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Unable to open Webview, App was crashed.]]>
+    </line>
+  </reporter-output>
+  <suite name="MobileTesting.com.AFAdvantage.AndroidDriverTest" duration-ms="59764" started-at="2017-12-06T20:33:19Z" finished-at="2017-12-06T20:34:18Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="59764" started-at="2017-12-06T20:33:19Z" finished-at="2017-12-06T20:34:18Z">
+      <class name="MobileTesting.com.AFAdvantage.AndroidDriverTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:MobileTesting.com.AFAdvantage.AndroidDriverTest@f5e5e3]" name="SetUp" is-config="true" duration-ms="21779" started-at="2017-12-06T15:33:19Z" finished-at="2017-12-06T15:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="openAFAdvantageApp()[pri:0, instance:MobileTesting.com.AFAdvantage.AndroidDriverTest@f5e5e3]" name="openAFAdvantageApp" duration-ms="35378" started-at="2017-12-06T15:33:40Z" finished-at="2017-12-06T15:34:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Unable to open Webview, App was crashed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAFAdvantageApp -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:MobileTesting.com.AFAdvantage.AndroidDriverTest@f5e5e3]" name="closeApplication" is-config="true" duration-ms="2590" started-at="2017-12-06T15:34:16Z" finished-at="2017-12-06T15:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- MobileTesting.com.AFAdvantage.AndroidDriverTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- MobileTesting.com.AFAdvantage.AndroidDriverTest -->
+</testng-results>

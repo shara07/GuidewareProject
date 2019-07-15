@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="MobileTesting.com.AFAdvantage.TC013_ValidateCWMarketingMeterialScreenAndEmailDocuments">
+        <methods>
+          <include name="phoneAppSetUp"/>
+          <include name="validateCWMarketingMeterialAndEmailAFSpecificInfo" invocation-numbers="0"/>
+          <include name="closeApp"/>
+          <include name="setUp"/>
+          <include name="closeReporting"/>
+          <include name="beforeMethod"/>
+          <include name="afterTestMethod"/>
+        </methods>
+      </class> <!-- MobileTesting.com.AFAdvantage.TC013_ValidateCWMarketingMeterialScreenAndEmailDocuments -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

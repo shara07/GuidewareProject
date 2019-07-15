@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MobileTesting.com.AFAdvantage" verbose ="2"  >
+
+	<test  name="TC001_LaunchAFAdvantageAndUserSignup">    
+	    <classes> 
+	     <class name="MobileTesting.com.AFAdvantage.TC001_LaunchAFAdvantageAndUserSignup"/>            
+	    </classes>
+	  </test> <!-- Test 1 --> 
+	
+	
+	<test  name="TC011_ExtentReport_TC002">    
+	   <classes> 
+	    <class name="MobileTesting.com.AFAdvantage.TC011_ExtentReport_TC002"/>            
+	   </classes>
+	 </test> <!-- Test 2 --> 
+	
+	
+	<test  name="TC012_ExtentReport_TC003">    
+	  <classes> 
+	   <class name="MobileTesting.com.AFAdvantage.TC012_ExtentReport_TC003"/>            
+	  </classes>
+	</test> <!-- Test 3 -->  
+	 
+	<test  name="TC004_ValidateUserMenu">    
+	  <classes> 
+	   <class name="MobileTesting.com.AFAdvantage.TC004_ValidateUserMenu"/>            
+	  </classes>
+	</test> <!-- Test 4 --> 	
+	
+  
+  <test  name="TC006_ValidateCompWestWebsiteObjects">    
+    <classes> 
+     <class name="MobileTesting.com.AFAdvantage.TC006_ValidateCompWestWebsiteObjects"/>            
+    </classes>
+  </test> <!-- Test 6 --> 
+  
+  <test  name="TC007_Validate3CUWebsiteObjects">    
+    <classes> 
+     <class name="MobileTesting.com.AFAdvantage.TC007_Validate3CUWebsiteObjects"/>            
+    </classes>
+  </test> <!-- Test 7 --> 
+  
+  <test  name="TC008_ValidateUHWebsiteObjects">    
+    <classes> 
+     <class name="MobileTesting.com.AFAdvantage.TC008_ValidateUHWebsiteObjects"/>            
+    </classes>
+  </test> <!-- Test 8 --> 
+  
+  <test  name="TC009_Validate_AF_CW_MarketingMeterialScreenAndEmailDocuments">    
+    <classes> 
+     <class name="MobileTesting.com.AFAdvantage.TC009_Validate_AF_CW_MarketingMeterialScreenAndEmailDocuments"/>            
+    </classes>
+  </test> <!-- Test 9--> 
+  
+  <test  name="TC010_Validate_3CU_UH_MarketingMaterialScreenAndEmailDocuments">    
+    <classes> 
+     <class name="MobileTesting.com.AFAdvantage.TC010_Validate_3CU_UH_MarketingMaterialScreenAndEmailDocuments"/>            
+    </classes>
+  </test> <!-- Test  10--> 
+	  
+ 
+  
+  
+</suite> <!-- Suite -->
